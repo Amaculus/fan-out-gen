@@ -17,7 +17,7 @@ from openai import OpenAI
 from anthropic import Anthropic
 
 # SerpAPI
-from serpapi import GoogleSearch
+from serpapi.google_search import GoogleSearch
 
 # Configure page
 st.set_page_config(
